@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "visualizer",
+      "runtimeExecutable": ".venv/bin/python",
+      "runtimeArgs": ["visualize.py"],
+      "port": 8765
+    }
+  ]
+}

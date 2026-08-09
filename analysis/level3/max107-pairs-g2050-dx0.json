@@ -1,0 +1,1038 @@
+{
+  "format": "golduck-level3-max107-pairs",
+  "version": 1,
+  "generation": 2050,
+  "probe_dx": 0,
+  "signature_window": {
+    "x": 370,
+    "y": 0,
+    "w": 120,
+    "h": 48
+  },
+  "records": [
+    {
+      "pair": "00",
+      "signature": "0x3f6cf29d1abf9d2e"
+    },
+    {
+      "pair": "01",
+      "signature": "0xe97e51c2d106debe"
+    },
+    {
+      "pair": "02",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "03",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "04",
+      "signature": "0x5c8cd60c8ab90bfe"
+    },
+    {
+      "pair": "05",
+      "signature": "0x43424dcd647dc959"
+    },
+    {
+      "pair": "06",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "07",
+      "signature": "0xecbed3d5aee01af5"
+    },
+    {
+      "pair": "08",
+      "signature": "0x607be9ff3a186903"
+    },
+    {
+      "pair": "09",
+      "signature": "0x6811531c8db73335"
+    },
+    {
+      "pair": "0a",
+      "signature": "0xf3f8a074c4c4699e"
+    },
+    {
+      "pair": "0b",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "0c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "0d",
+      "signature": "0x725996f9c5db7c5b"
+    },
+    {
+      "pair": "0e",
+      "signature": "0xe614f654a4b54a6d"
+    },
+    {
+      "pair": "0f",
+      "signature": "0xa2f735273bbfb6c6"
+    },
+    {
+      "pair": "10",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "11",
+      "signature": "0xd6a76a9dab9ef82d"
+    },
+    {
+      "pair": "12",
+      "signature": "0xdadfe9e871fd6f4e"
+    },
+    {
+      "pair": "13",
+      "signature": "0xf240b6b36e5393a2"
+    },
+    {
+      "pair": "14",
+      "signature": "0x6bef56c6fedf756a"
+    },
+    {
+      "pair": "15",
+      "signature": "0xf240b6b36e5393a2"
+    },
+    {
+      "pair": "16",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "17",
+      "signature": "0x66b5950912ff66c4"
+    },
+    {
+      "pair": "18",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "19",
+      "signature": "0xf240b6b36e5393a2"
+    },
+    {
+      "pair": "1a",
+      "signature": "0x3e1e61c7fcd9a4c4"
+    },
+    {
+      "pair": "1b",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "1c",
+      "signature": "0xdadfe9e871fd6f4e"
+    },
+    {
+      "pair": "1d",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "1e",
+      "signature": "0xdadfe9e871fd6f4e"
+    },
+    {
+      "pair": "1f",
+      "signature": "0x8c6a10e3cd070448"
+    },
+    {
+      "pair": "20",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "21",
+      "signature": "0x2bfcb012344ddaff"
+    },
+    {
+      "pair": "22",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "23",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "24",
+      "signature": "0x2a93a2158f9add5a"
+    },
+    {
+      "pair": "25",
+      "signature": "0x81d8f753b28acb5e"
+    },
+    {
+      "pair": "26",
+      "signature": "0x688c25e522974483"
+    },
+    {
+      "pair": "27",
+      "signature": "0x8aa772fc550a2ec2"
+    },
+    {
+      "pair": "28",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "29",
+      "signature": "0x6811531c8db73335"
+    },
+    {
+      "pair": "2a",
+      "signature": "0x56343e1f9532ccf8"
+    },
+    {
+      "pair": "2b",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "2c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "2d",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "2e",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "2f",
+      "signature": "0xa242fad0003f2cec"
+    },
+    {
+      "pair": "30",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "31",
+      "signature": "0xce21aa84a6e100c9"
+    },
+    {
+      "pair": "32",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "33",
+      "signature": "0x6811531c8db73335"
+    },
+    {
+      "pair": "34",
+      "signature": "0xf731b134ce2a29bf"
+    },
+    {
+      "pair": "35",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "36",
+      "signature": "0x6e0c53ab0823472f"
+    },
+    {
+      "pair": "37",
+      "signature": "0x79da113c21027a8b"
+    },
+    {
+      "pair": "38",
+      "signature": "0x37444a8e9627cd62"
+    },
+    {
+      "pair": "39",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "3a",
+      "signature": "0xcc1fe057f866c007"
+    },
+    {
+      "pair": "3b",
+      "signature": "0x6e0c53ab0823472f"
+    },
+    {
+      "pair": "3c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "3d",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "3e",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "3f",
+      "signature": "0xb7da37cf3b05ae91"
+    },
+    {
+      "pair": "40",
+      "signature": "0x5e5bf339de3e8b50"
+    },
+    {
+      "pair": "41",
+      "signature": "0xd6a76a9dab9ef82d"
+    },
+    {
+      "pair": "42",
+      "signature": "0xdadfe9e871fd6f4e"
+    },
+    {
+      "pair": "43",
+      "signature": "0xf240b6b36e5393a2"
+    },
+    {
+      "pair": "44",
+      "signature": "0x6bef56c6fedf756a"
+    },
+    {
+      "pair": "45",
+      "signature": "0xc0485066a3671060"
+    },
+    {
+      "pair": "46",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "47",
+      "signature": "0x7d7c10659504d307"
+    },
+    {
+      "pair": "48",
+      "signature": "0x1651636aa96be425"
+    },
+    {
+      "pair": "49",
+      "signature": "0xf240b6b36e5393a2"
+    },
+    {
+      "pair": "4a",
+      "signature": "0x9d46121b2452d3c8"
+    },
+    {
+      "pair": "4b",
+      "signature": "0xfe72a5baef20b5ff"
+    },
+    {
+      "pair": "4c",
+      "signature": "0xdadfe9e871fd6f4e"
+    },
+    {
+      "pair": "4d",
+      "signature": "0xd1d84d5913bc4f93"
+    },
+    {
+      "pair": "4e",
+      "signature": "0xdadfe9e871fd6f4e"
+    },
+    {
+      "pair": "4f",
+      "signature": "0x9d07261b27b696a7"
+    },
+    {
+      "pair": "50",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "51",
+      "signature": "0xce21aa84a6e100c9"
+    },
+    {
+      "pair": "52",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "53",
+      "signature": "0x6811531c8db73335"
+    },
+    {
+      "pair": "54",
+      "signature": "0xf731b134ce2a29bf"
+    },
+    {
+      "pair": "55",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "56",
+      "signature": "0xe83ea7ac7fe2cd9d"
+    },
+    {
+      "pair": "57",
+      "signature": "0x79da113c21027a8b"
+    },
+    {
+      "pair": "58",
+      "signature": "0x8abe6dd37a6c4621"
+    },
+    {
+      "pair": "59",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "5a",
+      "signature": "0xcc1fe057f866c007"
+    },
+    {
+      "pair": "5b",
+      "signature": "0x8abe6dd37a6c4621"
+    },
+    {
+      "pair": "5c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "5d",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "5e",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "5f",
+      "signature": "0x5f3666402930a442"
+    },
+    {
+      "pair": "60",
+      "signature": "0x3f6cf29d1abf9d2e"
+    },
+    {
+      "pair": "61",
+      "signature": "0xa0b1f30f79711ff3"
+    },
+    {
+      "pair": "62",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "63",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "64",
+      "signature": "0x5c8cd60c8ab90bfe"
+    },
+    {
+      "pair": "65",
+      "signature": "0x19fc790b0dcf06c5"
+    },
+    {
+      "pair": "66",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "67",
+      "signature": "0x1beb19ec7cd80f34"
+    },
+    {
+      "pair": "68",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "69",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "6a",
+      "signature": "0xf3f8a074c4c4699e"
+    },
+    {
+      "pair": "6b",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "6c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "6d",
+      "signature": "0x00702d895b879688"
+    },
+    {
+      "pair": "6e",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "6f",
+      "signature": "0xc72d263782da76e8"
+    },
+    {
+      "pair": "70",
+      "signature": "0x6f0e3d77adc263f5"
+    },
+    {
+      "pair": "71",
+      "signature": "0x2d6984acb4ee8241"
+    },
+    {
+      "pair": "72",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "73",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "74",
+      "signature": "0x2d6984acb4ee8241"
+    },
+    {
+      "pair": "75",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "76",
+      "signature": "0xf532c2a6f11e12a9"
+    },
+    {
+      "pair": "77",
+      "signature": "0x5066aa1b5985f00f"
+    },
+    {
+      "pair": "78",
+      "signature": "0xe4af33af8cf3413e"
+    },
+    {
+      "pair": "79",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "7a",
+      "signature": "0xdd794695165d3a53"
+    },
+    {
+      "pair": "7b",
+      "signature": "0x4d53c5ed3c1b856e"
+    },
+    {
+      "pair": "7c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "7d",
+      "signature": "0x81d4fd82c46d7b64"
+    },
+    {
+      "pair": "7e",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "7f",
+      "signature": "0x5827c5f7f2ea9a85"
+    },
+    {
+      "pair": "80",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "81",
+      "signature": "0x029b4c6b597e3faf"
+    },
+    {
+      "pair": "82",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "83",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "84",
+      "signature": "0x689cae572ffe11c2"
+    },
+    {
+      "pair": "85",
+      "signature": "0x03f15db4e0021019"
+    },
+    {
+      "pair": "86",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "87",
+      "signature": "0xecbed3d5aee01af5"
+    },
+    {
+      "pair": "88",
+      "signature": "0xd03e0f56fe0fa5ed"
+    },
+    {
+      "pair": "89",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "8a",
+      "signature": "0xd5907579a2243e9d"
+    },
+    {
+      "pair": "8b",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "8c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "8d",
+      "signature": "0x2fadd7ebbad56e94"
+    },
+    {
+      "pair": "8e",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "8f",
+      "signature": "0xc72d263782da76e8"
+    },
+    {
+      "pair": "90",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "91",
+      "signature": "0xce21aa84a6e100c9"
+    },
+    {
+      "pair": "92",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "93",
+      "signature": "0x6811531c8db73335"
+    },
+    {
+      "pair": "94",
+      "signature": "0xf731b134ce2a29bf"
+    },
+    {
+      "pair": "95",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "96",
+      "signature": "0x6e0c53ab0823472f"
+    },
+    {
+      "pair": "97",
+      "signature": "0x79da113c21027a8b"
+    },
+    {
+      "pair": "98",
+      "signature": "0x37444a8e9627cd62"
+    },
+    {
+      "pair": "99",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "9a",
+      "signature": "0xcc1fe057f866c007"
+    },
+    {
+      "pair": "9b",
+      "signature": "0x6e0c53ab0823472f"
+    },
+    {
+      "pair": "9c",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "9d",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "9e",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "9f",
+      "signature": "0xb7da37cf3b05ae91"
+    },
+    {
+      "pair": "a0",
+      "signature": "0x6f0e3d77adc263f5"
+    },
+    {
+      "pair": "a1",
+      "signature": "0xa55bb2c053782cb2"
+    },
+    {
+      "pair": "a2",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "a3",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "a4",
+      "signature": "0x2d6984acb4ee8241"
+    },
+    {
+      "pair": "a5",
+      "signature": "0x70442796c385e742"
+    },
+    {
+      "pair": "a6",
+      "signature": "0xd90305e973b12169"
+    },
+    {
+      "pair": "a7",
+      "signature": "0x83f188edb0a26bd1"
+    },
+    {
+      "pair": "a8",
+      "signature": "0x81d4fd82c46d7b64"
+    },
+    {
+      "pair": "a9",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "aa",
+      "signature": "0x0d305ca2d92f9921"
+    },
+    {
+      "pair": "ab",
+      "signature": "0xd90305e973b12169"
+    },
+    {
+      "pair": "ac",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "ad",
+      "signature": "0x866927cafea8e946"
+    },
+    {
+      "pair": "ae",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "af",
+      "signature": "0x60c4165055f5f067"
+    },
+    {
+      "pair": "b0",
+      "signature": "0x3f6cf29d1abf9d2e"
+    },
+    {
+      "pair": "b1",
+      "signature": "0xa0b1f30f79711ff3"
+    },
+    {
+      "pair": "b2",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "b3",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "b4",
+      "signature": "0x5c8cd60c8ab90bfe"
+    },
+    {
+      "pair": "b5",
+      "signature": "0x19fc790b0dcf06c5"
+    },
+    {
+      "pair": "b6",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "b7",
+      "signature": "0x1beb19ec7cd80f34"
+    },
+    {
+      "pair": "b8",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "b9",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "ba",
+      "signature": "0xf3f8a074c4c4699e"
+    },
+    {
+      "pair": "bb",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "bc",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "bd",
+      "signature": "0x00702d895b879688"
+    },
+    {
+      "pair": "be",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "bf",
+      "signature": "0xc72d263782da76e8"
+    },
+    {
+      "pair": "c0",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "c1",
+      "signature": "0x2bfcb012344ddaff"
+    },
+    {
+      "pair": "c2",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "c3",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "c4",
+      "signature": "0x2a93a2158f9add5a"
+    },
+    {
+      "pair": "c5",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "c6",
+      "signature": "0x32a62514b29b762d"
+    },
+    {
+      "pair": "c7",
+      "signature": "0x6e4dc00fb271369d"
+    },
+    {
+      "pair": "c8",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "c9",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "ca",
+      "signature": "0xc42b95697ade0e73"
+    },
+    {
+      "pair": "cb",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "cc",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "cd",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "ce",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "cf",
+      "signature": "0xcdcee7b5d14791bd"
+    },
+    {
+      "pair": "d0",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "d1",
+      "signature": "0xe97e51c2d106debe"
+    },
+    {
+      "pair": "d2",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "d3",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "d4",
+      "signature": "0x689cae572ffe11c2"
+    },
+    {
+      "pair": "d5",
+      "signature": "0x03f15db4e0021019"
+    },
+    {
+      "pair": "d6",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "d7",
+      "signature": "0x1beb19ec7cd80f34"
+    },
+    {
+      "pair": "d8",
+      "signature": "0xd03e0f56fe0fa5ed"
+    },
+    {
+      "pair": "d9",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "da",
+      "signature": "0xd5907579a2243e9d"
+    },
+    {
+      "pair": "db",
+      "signature": "0xfd215515dc57d71c"
+    },
+    {
+      "pair": "dc",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "dd",
+      "signature": "0x00702d895b879688"
+    },
+    {
+      "pair": "de",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "df",
+      "signature": "0xc72d263782da76e8"
+    },
+    {
+      "pair": "e0",
+      "signature": "0xd529ac658e28ab4a"
+    },
+    {
+      "pair": "e1",
+      "signature": "0x2bfcb012344ddaff"
+    },
+    {
+      "pair": "e2",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "e3",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "e4",
+      "signature": "0x2a93a2158f9add5a"
+    },
+    {
+      "pair": "e5",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "e6",
+      "signature": "0x32a62514b29b762d"
+    },
+    {
+      "pair": "e7",
+      "signature": "0x8aa772fc550a2ec2"
+    },
+    {
+      "pair": "e8",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "e9",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "ea",
+      "signature": "0x1324bc2eb6be47e7"
+    },
+    {
+      "pair": "eb",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "ec",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "ed",
+      "signature": "0x43241f3b3bdcceba"
+    },
+    {
+      "pair": "ee",
+      "signature": "0xca016fee2a50eff2"
+    },
+    {
+      "pair": "ef",
+      "signature": "0xa242fad0003f2cec"
+    },
+    {
+      "pair": "f0",
+      "signature": "0x6f0e3d77adc263f5"
+    },
+    {
+      "pair": "f1",
+      "signature": "0xa10e5775ebbdeea4"
+    },
+    {
+      "pair": "f2",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "f3",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "f4",
+      "signature": "0x60758a0b07296975"
+    },
+    {
+      "pair": "f5",
+      "signature": "0x763e5989ec159712"
+    },
+    {
+      "pair": "f6",
+      "signature": "0x81d4fd82c46d7b64"
+    },
+    {
+      "pair": "f7",
+      "signature": "0xba498920ed4cbb26"
+    },
+    {
+      "pair": "f8",
+      "signature": "0x27352666b725c075"
+    },
+    {
+      "pair": "f9",
+      "signature": "0x405a6923c63c46da"
+    },
+    {
+      "pair": "fa",
+      "signature": "0xc98f2bacbf004343"
+    },
+    {
+      "pair": "fb",
+      "signature": "0x81d4fd82c46d7b64"
+    },
+    {
+      "pair": "fc",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "fd",
+      "signature": "0x81d4fd82c46d7b64"
+    },
+    {
+      "pair": "fe",
+      "signature": "0xad8e06f0669acc80"
+    },
+    {
+      "pair": "ff",
+      "signature": "0xe98da3e72b0d8fa0"
+    }
+  ]
+}

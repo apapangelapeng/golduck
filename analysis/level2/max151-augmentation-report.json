@@ -1,0 +1,5127 @@
+{
+  "base_bounds": [
+    485,
+    0,
+    511,
+    22
+  ],
+  "base_cells": 151,
+  "candidate_count": 1833,
+  "exhaustive": [],
+  "format": "golduck-max151-augmentation-search",
+  "refine_contexts": 384,
+  "screen_contexts": 18,
+  "seed": 1383014,
+  "top_refine": [
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1775",
+        "description": "unmodified Max151 at generation 1775",
+        "generation": 1775,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 63.16861670801882
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1800",
+        "description": "unmodified Max151 at generation 1800",
+        "generation": 1800,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 62.11559891595971
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1825",
+        "description": "unmodified Max151 at generation 1825",
+        "generation": 1825,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 60.3572271669982
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1850",
+        "description": "unmodified Max151 at generation 1850",
+        "generation": 1850,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 58.625184959033504
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1875",
+        "description": "unmodified Max151 at generation 1875",
+        "generation": 1875,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 56.04663287498988
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1900",
+        "description": "unmodified Max151 at generation 1900",
+        "generation": 1900,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 54.85395354102366
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            402,
+            9
+          ],
+          [
+            402,
+            12
+          ],
+          [
+            403,
+            8
+          ],
+          [
+            404,
+            8
+          ],
+          [
+            404,
+            12
+          ],
+          [
+            405,
+            8
+          ],
+          [
+            405,
+            9
+          ],
+          [
+            405,
+            10
+          ],
+          [
+            405,
+            11
+          ]
+        ],
+        "candidate_id": "ship-lwss-p7-x402-y8-g1775",
+        "description": "lwss phase 7 at (402,8); 9 added cells",
+        "generation": 1775,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 59.3304043749813
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            527,
+            100
+          ],
+          [
+            528,
+            98
+          ],
+          [
+            528,
+            100
+          ],
+          [
+            529,
+            99
+          ],
+          [
+            529,
+            100
+          ]
+        ],
+        "candidate_id": "ship-glider-p7-x527-y98-g1825",
+        "description": "glider phase 7 at (527,98); 5 added cells",
+        "generation": 1825,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 56.24371383409016
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1650",
+        "description": "unmodified Max151 at generation 1650",
+        "generation": 1650,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 76.0992308750283
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1675",
+        "description": "unmodified Max151 at generation 1675",
+        "generation": 1675,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 71.63084241596516
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1700",
+        "description": "unmodified Max151 at generation 1700",
+        "generation": 1700,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 67.62045679194853
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1725",
+        "description": "unmodified Max151 at generation 1725",
+        "generation": 1725,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 64.2261895830743
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1750",
+        "description": "unmodified Max151 at generation 1750",
+        "generation": 1750,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 63.49101795896422
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            596,
+            11
+          ],
+          [
+            597,
+            9
+          ],
+          [
+            597,
+            11
+          ],
+          [
+            598,
+            10
+          ],
+          [
+            598,
+            11
+          ]
+        ],
+        "candidate_id": "ship-glider-p7-x596-y9-g1750",
+        "description": "glider phase 7 at (596,9); 5 added cells",
+        "generation": 1750,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 56.43376987508964
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            458,
+            109
+          ],
+          [
+            458,
+            110
+          ],
+          [
+            458,
+            111
+          ],
+          [
+            458,
+            112
+          ],
+          [
+            458,
+            113
+          ],
+          [
+            459,
+            108
+          ],
+          [
+            459,
+            113
+          ],
+          [
+            460,
+            113
+          ],
+          [
+            461,
+            108
+          ],
+          [
+            461,
+            112
+          ],
+          [
+            462,
+            110
+          ]
+        ],
+        "candidate_id": "ship-mwss-p2-x458-y108-g1725",
+        "description": "mwss phase 2 at (458,108); 11 added cells",
+        "generation": 1725,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5416666666666666,
+          "classes": 284,
+          "contexts": 384,
+          "entropy_bits": 8.018756308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.880208333333334,
+          "mean_log2_binary_ambiguity": 0.5557895260483381
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 57.544786417041905
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1475",
+        "description": "unmodified Max151 at generation 1475",
+        "generation": 1475,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 138.67996262502857
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1500",
+        "description": "unmodified Max151 at generation 1500",
+        "generation": 1500,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 128.06549224990886
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1525",
+        "description": "unmodified Max151 at generation 1525",
+        "generation": 1525,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 114.73010833398439
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1550",
+        "description": "unmodified Max151 at generation 1550",
+        "generation": 1550,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 103.60178362496663
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1575",
+        "description": "unmodified Max151 at generation 1575",
+        "generation": 1575,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 92.76226499991026
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1600",
+        "description": "unmodified Max151 at generation 1600",
+        "generation": 1600,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 87.26920237496961
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1625",
+        "description": "unmodified Max151 at generation 1625",
+        "generation": 1625,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 80.92482091696002
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            466,
+            94
+          ],
+          [
+            466,
+            96
+          ],
+          [
+            467,
+            93
+          ],
+          [
+            468,
+            93
+          ],
+          [
+            469,
+            93
+          ],
+          [
+            469,
+            96
+          ],
+          [
+            470,
+            93
+          ],
+          [
+            470,
+            94
+          ],
+          [
+            470,
+            95
+          ]
+        ],
+        "candidate_id": "ship-lwss-p6-x466-y93-g1625",
+        "description": "lwss phase 6 at (466,93); 9 added cells",
+        "generation": 1625,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 74.36299749999307
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            498,
+            105
+          ],
+          [
+            498,
+            106
+          ],
+          [
+            498,
+            107
+          ],
+          [
+            499,
+            104
+          ],
+          [
+            499,
+            107
+          ],
+          [
+            500,
+            107
+          ],
+          [
+            501,
+            103
+          ],
+          [
+            501,
+            107
+          ],
+          [
+            502,
+            107
+          ],
+          [
+            503,
+            104
+          ],
+          [
+            503,
+            106
+          ]
+        ],
+        "candidate_id": "ship-mwss-p5-x498-y103-g1475",
+        "description": "mwss phase 5 at (498,103); 11 added cells",
+        "generation": 1475,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5364583333333334,
+          "classes": 283,
+          "contexts": 384,
+          "entropy_bits": 8.013547974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.869791666666666,
+          "mean_log2_binary_ambiguity": 0.5609978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 114.87117487494834
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1450",
+        "description": "unmodified Max151 at generation 1450",
+        "generation": 1450,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.53125,
+          "classes": 282,
+          "contexts": 384,
+          "entropy_bits": 8.008339641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.859375,
+          "mean_log2_binary_ambiguity": 0.5662061927150047
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 59.38205749995541
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1425",
+        "description": "unmodified Max151 at generation 1425",
+        "generation": 1425,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5208333333333334,
+          "classes": 280,
+          "contexts": 384,
+          "entropy_bits": 7.997922974672869,
+          "largest_class": 5,
+          "mean_forced_bits": 10.833333333333334,
+          "mean_log2_binary_ambiguity": 0.5766228593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.546875,
+          "classes": 285,
+          "contexts": 384,
+          "entropy_bits": 8.023964641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.895833333333334,
+          "mean_log2_binary_ambiguity": 0.5505811927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 63.86330787499901
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1400",
+        "description": "unmodified Max151 at generation 1400",
+        "generation": 1400,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.53125,
+          "classes": 282,
+          "contexts": 384,
+          "entropy_bits": 8.008339641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.859375,
+          "mean_log2_binary_ambiguity": 0.5662061927150047
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5182291666666666,
+          "classes": 279,
+          "contexts": 384,
+          "entropy_bits": 7.990748788469318,
+          "largest_class": 5,
+          "mean_forced_bits": 10.8046875,
+          "mean_log2_binary_ambiguity": 0.583797045585222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.53125,
+          "classes": 282,
+          "contexts": 384,
+          "entropy_bits": 8.008339641339536,
+          "largest_class": 5,
+          "mean_forced_bits": 10.859375,
+          "mean_log2_binary_ambiguity": 0.5662061927150047
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 67.05184574995656
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1375",
+        "description": "unmodified Max151 at generation 1375",
+        "generation": 1375,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.5104166666666666,
+          "classes": 278,
+          "contexts": 384,
+          "entropy_bits": 7.987506308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.817708333333334,
+          "mean_log2_binary_ambiguity": 0.5870395260483381
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.5026041666666666,
+          "classes": 276,
+          "contexts": 384,
+          "entropy_bits": 7.975123788469317,
+          "largest_class": 5,
+          "mean_forced_bits": 10.778645833333334,
+          "mean_log2_binary_ambiguity": 0.599422045585222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.5104166666666666,
+          "classes": 278,
+          "contexts": 384,
+          "entropy_bits": 7.987506308006202,
+          "largest_class": 5,
+          "mean_forced_bits": 10.817708333333334,
+          "mean_log2_binary_ambiguity": 0.5870395260483381
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 85.15569370798767
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1350",
+        "description": "unmodified Max151 at generation 1350",
+        "generation": 1350,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.484375,
+          "classes": 272,
+          "contexts": 384,
+          "entropy_bits": 7.951047974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.708333333333334,
+          "mean_log2_binary_ambiguity": 0.6234978593816715
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.484375,
+          "classes": 272,
+          "contexts": 384,
+          "entropy_bits": 7.951047974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.708333333333334,
+          "mean_log2_binary_ambiguity": 0.6234978593816715
+        },
+        "wide": {
+          "binary_exact_fraction": 0.484375,
+          "classes": 272,
+          "contexts": 384,
+          "entropy_bits": 7.951047974672868,
+          "largest_class": 5,
+          "mean_forced_bits": 10.708333333333334,
+          "mean_log2_binary_ambiguity": 0.6234978593816715
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 106.72353970899712
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1326",
+        "description": "unmodified Max151 at generation 1326",
+        "generation": 1326,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.3359375,
+          "classes": 242,
+          "contexts": 384,
+          "entropy_bits": 7.788900416062205,
+          "largest_class": 5,
+          "mean_forced_bits": 10.401041666666666,
+          "mean_log2_binary_ambiguity": 0.7856454179923235
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.3359375,
+          "classes": 242,
+          "contexts": 384,
+          "entropy_bits": 7.788900416062205,
+          "largest_class": 5,
+          "mean_forced_bits": 10.401041666666666,
+          "mean_log2_binary_ambiguity": 0.7856454179923235
+        },
+        "wide": {
+          "binary_exact_fraction": 0.3359375,
+          "classes": 242,
+          "contexts": 384,
+          "entropy_bits": 7.788900416062205,
+          "largest_class": 5,
+          "mean_forced_bits": 10.401041666666666,
+          "mean_log2_binary_ambiguity": 0.7856454179923235
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 107.9881257499801
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1325",
+        "description": "unmodified Max151 at generation 1325",
+        "generation": 1325,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.3229166666666667,
+          "classes": 238,
+          "contexts": 384,
+          "entropy_bits": 7.750367261160824,
+          "largest_class": 7,
+          "mean_forced_bits": 10.294270833333334,
+          "mean_log2_binary_ambiguity": 0.8250635989428821
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.3229166666666667,
+          "classes": 238,
+          "contexts": 384,
+          "entropy_bits": 7.750367261160824,
+          "largest_class": 7,
+          "mean_forced_bits": 10.294270833333334,
+          "mean_log2_binary_ambiguity": 0.8250635989428821
+        },
+        "wide": {
+          "binary_exact_fraction": 0.3229166666666667,
+          "classes": 238,
+          "contexts": 384,
+          "entropy_bits": 7.750367261160824,
+          "largest_class": 7,
+          "mean_forced_bits": 10.294270833333334,
+          "mean_log2_binary_ambiguity": 0.8250635989428821
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 114.36597166699357
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1300",
+        "description": "unmodified Max151 at generation 1300",
+        "generation": 1300,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0026041666666666665,
+          "classes": 34,
+          "contexts": 384,
+          "entropy_bits": 4.2094506650281875,
+          "largest_class": 102,
+          "mean_forced_bits": 2.4947916666666665,
+          "mean_log2_binary_ambiguity": 4.312397258094827
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0026041666666666665,
+          "classes": 34,
+          "contexts": 384,
+          "entropy_bits": 4.2094506650281875,
+          "largest_class": 102,
+          "mean_forced_bits": 2.4947916666666665,
+          "mean_log2_binary_ambiguity": 4.312397258094827
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0026041666666666665,
+          "classes": 34,
+          "contexts": 384,
+          "entropy_bits": 4.2094506650281875,
+          "largest_class": 102,
+          "mean_forced_bits": 2.4947916666666665,
+          "mean_log2_binary_ambiguity": 4.312397258094827
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 116.14905558398459
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1125",
+        "description": "unmodified Max151 at generation 1125",
+        "generation": 1125,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 126.46419329103082
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1150",
+        "description": "unmodified Max151 at generation 1150",
+        "generation": 1150,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 128.32801154092886
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1175",
+        "description": "unmodified Max151 at generation 1175",
+        "generation": 1175,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 129.6364400839666
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1200",
+        "description": "unmodified Max151 at generation 1200",
+        "generation": 1200,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 131.2828255420318
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1225",
+        "description": "unmodified Max151 at generation 1225",
+        "generation": 1225,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 128.99562445795164
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1250",
+        "description": "unmodified Max151 at generation 1250",
+        "generation": 1250,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 129.40731954202056
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1275",
+        "description": "unmodified Max151 at generation 1275",
+        "generation": 1275,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "001e758434a9ff0725c9672cacc7f5a1f9280489e2b92a77e2bab24cce42efb5",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        },
+        "wide": {
+          "binary_exact_fraction": 0.0,
+          "classes": 1,
+          "contexts": 384,
+          "entropy_bits": 0.0,
+          "largest_class": 384,
+          "mean_forced_bits": 0.0,
+          "mean_log2_binary_ambiguity": 8.487840033823051
+        }
+      },
+      "stage": "refine",
+      "worker_seconds": 125.88511787506286
+    }
+  ],
+  "top_screen": [
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1475",
+        "description": "unmodified Max151 at generation 1475",
+        "generation": 1475,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 8.113439665990882
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1500",
+        "description": "unmodified Max151 at generation 1500",
+        "generation": 1500,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.79070833302103
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1525",
+        "description": "unmodified Max151 at generation 1525",
+        "generation": 1525,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.238547582994215
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1550",
+        "description": "unmodified Max151 at generation 1550",
+        "generation": 1550,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.777504791971296
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1575",
+        "description": "unmodified Max151 at generation 1575",
+        "generation": 1575,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.27849087503273
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1600",
+        "description": "unmodified Max151 at generation 1600",
+        "generation": 1600,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.324349875096232
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1625",
+        "description": "unmodified Max151 at generation 1625",
+        "generation": 1625,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.8614432499744
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1650",
+        "description": "unmodified Max151 at generation 1650",
+        "generation": 1650,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.7339442080119625
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1675",
+        "description": "unmodified Max151 at generation 1675",
+        "generation": 1675,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.485663166968152
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1700",
+        "description": "unmodified Max151 at generation 1700",
+        "generation": 1700,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.263110083062202
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1725",
+        "description": "unmodified Max151 at generation 1725",
+        "generation": 1725,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.653317459044047
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1750",
+        "description": "unmodified Max151 at generation 1750",
+        "generation": 1750,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.7276703750249
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1775",
+        "description": "unmodified Max151 at generation 1775",
+        "generation": 1775,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.907479957910255
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1800",
+        "description": "unmodified Max151 at generation 1800",
+        "generation": 1800,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.82106712507084
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1825",
+        "description": "unmodified Max151 at generation 1825",
+        "generation": 1825,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.603580250055529
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1850",
+        "description": "unmodified Max151 at generation 1850",
+        "generation": 1850,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.982790042064153
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1875",
+        "description": "unmodified Max151 at generation 1875",
+        "generation": 1875,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.1701874159043655
+    },
+    {
+      "candidate": {
+        "additions": [],
+        "candidate_id": "baseline-g1900",
+        "description": "unmodified Max151 at generation 1900",
+        "generation": 1900,
+        "kind": "baseline"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.097906417096965
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            402,
+            9
+          ],
+          [
+            402,
+            12
+          ],
+          [
+            403,
+            8
+          ],
+          [
+            404,
+            8
+          ],
+          [
+            404,
+            12
+          ],
+          [
+            405,
+            8
+          ],
+          [
+            405,
+            9
+          ],
+          [
+            405,
+            10
+          ],
+          [
+            405,
+            11
+          ]
+        ],
+        "candidate_id": "ship-lwss-p7-x402-y8-g1775",
+        "description": "lwss phase 7 at (402,8); 9 added cells",
+        "generation": 1775,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.1903749170014635
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            466,
+            94
+          ],
+          [
+            466,
+            96
+          ],
+          [
+            467,
+            93
+          ],
+          [
+            468,
+            93
+          ],
+          [
+            469,
+            93
+          ],
+          [
+            469,
+            96
+          ],
+          [
+            470,
+            93
+          ],
+          [
+            470,
+            94
+          ],
+          [
+            470,
+            95
+          ]
+        ],
+        "candidate_id": "ship-lwss-p6-x466-y93-g1625",
+        "description": "lwss phase 6 at (466,93); 9 added cells",
+        "generation": 1625,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.919679874903522
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            498,
+            105
+          ],
+          [
+            498,
+            106
+          ],
+          [
+            498,
+            107
+          ],
+          [
+            499,
+            104
+          ],
+          [
+            499,
+            107
+          ],
+          [
+            500,
+            107
+          ],
+          [
+            501,
+            103
+          ],
+          [
+            501,
+            107
+          ],
+          [
+            502,
+            107
+          ],
+          [
+            503,
+            104
+          ],
+          [
+            503,
+            106
+          ]
+        ],
+        "candidate_id": "ship-mwss-p5-x498-y103-g1475",
+        "description": "mwss phase 5 at (498,103); 11 added cells",
+        "generation": 1475,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 10.424737124936655
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            527,
+            100
+          ],
+          [
+            528,
+            98
+          ],
+          [
+            528,
+            100
+          ],
+          [
+            529,
+            99
+          ],
+          [
+            529,
+            100
+          ]
+        ],
+        "candidate_id": "ship-glider-p7-x527-y98-g1825",
+        "description": "glider phase 7 at (527,98); 5 added cells",
+        "generation": 1825,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.048456958960742
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            596,
+            11
+          ],
+          [
+            597,
+            9
+          ],
+          [
+            597,
+            11
+          ],
+          [
+            598,
+            10
+          ],
+          [
+            598,
+            11
+          ]
+        ],
+        "candidate_id": "ship-glider-p7-x596-y9-g1750",
+        "description": "glider phase 7 at (596,9); 5 added cells",
+        "generation": 1750,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.7560827920679
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            458,
+            109
+          ],
+          [
+            458,
+            110
+          ],
+          [
+            458,
+            111
+          ],
+          [
+            458,
+            112
+          ],
+          [
+            458,
+            113
+          ],
+          [
+            459,
+            108
+          ],
+          [
+            459,
+            113
+          ],
+          [
+            460,
+            113
+          ],
+          [
+            461,
+            108
+          ],
+          [
+            461,
+            112
+          ],
+          [
+            462,
+            110
+          ]
+        ],
+        "candidate_id": "ship-mwss-p2-x458-y108-g1725",
+        "description": "mwss phase 2 at (458,108); 11 added cells",
+        "generation": 1725,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.824977125041187
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            570,
+            128
+          ],
+          [
+            570,
+            130
+          ],
+          [
+            571,
+            127
+          ],
+          [
+            572,
+            127
+          ],
+          [
+            573,
+            127
+          ],
+          [
+            573,
+            130
+          ],
+          [
+            574,
+            127
+          ],
+          [
+            574,
+            128
+          ],
+          [
+            574,
+            129
+          ]
+        ],
+        "candidate_id": "ship-lwss-p6-x570-y127-g1575",
+        "description": "lwss phase 6 at (570,127); 9 added cells",
+        "generation": 1575,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.886918875039555
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            421,
+            3
+          ],
+          [
+            421,
+            4
+          ],
+          [
+            421,
+            5
+          ],
+          [
+            422,
+            5
+          ],
+          [
+            423,
+            4
+          ]
+        ],
+        "candidate_id": "ship-glider-p1-x421-y3-g1525",
+        "description": "glider phase 1 at (421,3); 5 added cells",
+        "generation": 1525,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 8.79498662496917
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            514,
+            85
+          ],
+          [
+            514,
+            87
+          ],
+          [
+            515,
+            88
+          ],
+          [
+            516,
+            88
+          ],
+          [
+            517,
+            85
+          ],
+          [
+            517,
+            88
+          ],
+          [
+            518,
+            86
+          ],
+          [
+            518,
+            87
+          ],
+          [
+            518,
+            88
+          ]
+        ],
+        "candidate_id": "ship-lwss-p2-x514-y85-g1525",
+        "description": "lwss phase 2 at (514,85); 9 added cells",
+        "generation": 1525,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 9.141521082958207
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            587,
+            149
+          ],
+          [
+            587,
+            150
+          ],
+          [
+            587,
+            151
+          ],
+          [
+            588,
+            149
+          ],
+          [
+            588,
+            152
+          ],
+          [
+            589,
+            149
+          ],
+          [
+            590,
+            149
+          ],
+          [
+            590,
+            153
+          ],
+          [
+            591,
+            149
+          ],
+          [
+            591,
+            153
+          ],
+          [
+            592,
+            149
+          ],
+          [
+            593,
+            150
+          ],
+          [
+            593,
+            152
+          ]
+        ],
+        "candidate_id": "ship-hwss-p1-x587-y149-g1625",
+        "description": "hwss phase 1 at (587,149); 13 added cells",
+        "generation": 1625,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.486159667023458
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            576,
+            7
+          ],
+          [
+            576,
+            8
+          ],
+          [
+            576,
+            9
+          ],
+          [
+            576,
+            10
+          ],
+          [
+            577,
+            6
+          ],
+          [
+            577,
+            10
+          ],
+          [
+            578,
+            10
+          ],
+          [
+            579,
+            6
+          ],
+          [
+            579,
+            9
+          ]
+        ],
+        "candidate_id": "ship-lwss-p4-x576-y6-g1475",
+        "description": "lwss phase 4 at (576,6); 9 added cells",
+        "generation": 1475,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 11.487185374950059
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            416,
+            45
+          ],
+          [
+            416,
+            46
+          ],
+          [
+            417,
+            45
+          ],
+          [
+            417,
+            47
+          ],
+          [
+            418,
+            45
+          ]
+        ],
+        "candidate_id": "ship-glider-p2-x416-y45-g1500",
+        "description": "glider phase 2 at (416,45); 5 added cells",
+        "generation": 1500,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 10.244913375005126
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            475,
+            137
+          ],
+          [
+            475,
+            140
+          ],
+          [
+            476,
+            141
+          ],
+          [
+            477,
+            137
+          ],
+          [
+            477,
+            141
+          ],
+          [
+            478,
+            138
+          ],
+          [
+            478,
+            139
+          ],
+          [
+            478,
+            140
+          ],
+          [
+            478,
+            141
+          ]
+        ],
+        "candidate_id": "ship-lwss-p3-x475-y137-g1900",
+        "description": "lwss phase 3 at (475,137); 9 added cells",
+        "generation": 1900,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.128979749977589
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            451,
+            29
+          ],
+          [
+            451,
+            30
+          ],
+          [
+            451,
+            31
+          ],
+          [
+            451,
+            32
+          ],
+          [
+            451,
+            33
+          ],
+          [
+            452,
+            28
+          ],
+          [
+            452,
+            33
+          ],
+          [
+            453,
+            33
+          ],
+          [
+            454,
+            28
+          ],
+          [
+            454,
+            32
+          ],
+          [
+            455,
+            30
+          ]
+        ],
+        "candidate_id": "ship-mwss-p2-x451-y28-g1750",
+        "description": "mwss phase 2 at (451,28); 11 added cells",
+        "generation": 1750,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.167671708040871
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            511,
+            25
+          ],
+          [
+            512,
+            23
+          ],
+          [
+            512,
+            25
+          ],
+          [
+            513,
+            24
+          ],
+          [
+            513,
+            25
+          ]
+        ],
+        "candidate_id": "ship-glider-p7-x511-y23-g1525",
+        "description": "glider phase 7 at (511,23); 5 added cells",
+        "generation": 1525,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 9.633273083018139
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            516,
+            150
+          ],
+          [
+            516,
+            152
+          ],
+          [
+            517,
+            153
+          ],
+          [
+            518,
+            149
+          ],
+          [
+            518,
+            153
+          ],
+          [
+            519,
+            149
+          ],
+          [
+            519,
+            153
+          ],
+          [
+            520,
+            153
+          ],
+          [
+            521,
+            150
+          ],
+          [
+            521,
+            153
+          ],
+          [
+            522,
+            151
+          ],
+          [
+            522,
+            152
+          ],
+          [
+            522,
+            153
+          ]
+        ],
+        "candidate_id": "ship-hwss-p4-x516-y149-g1525",
+        "description": "hwss phase 4 at (516,149); 13 added cells",
+        "generation": 1525,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 9.322711541084573
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            538,
+            55
+          ],
+          [
+            539,
+            56
+          ],
+          [
+            540,
+            54
+          ],
+          [
+            540,
+            55
+          ],
+          [
+            540,
+            56
+          ]
+        ],
+        "candidate_id": "ship-glider-p6-x538-y54-g1625",
+        "description": "glider phase 6 at (538,54); 5 added cells",
+        "generation": 1625,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.104487375007011
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            541,
+            152
+          ],
+          [
+            541,
+            155
+          ],
+          [
+            542,
+            156
+          ],
+          [
+            543,
+            152
+          ],
+          [
+            543,
+            156
+          ],
+          [
+            544,
+            153
+          ],
+          [
+            544,
+            154
+          ],
+          [
+            544,
+            155
+          ],
+          [
+            544,
+            156
+          ]
+        ],
+        "candidate_id": "ship-lwss-p3-x541-y152-g1775",
+        "description": "lwss phase 3 at (541,152); 9 added cells",
+        "generation": 1775,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.797822874970734
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            501,
+            46
+          ],
+          [
+            501,
+            47
+          ],
+          [
+            502,
+            45
+          ],
+          [
+            502,
+            47
+          ],
+          [
+            503,
+            47
+          ]
+        ],
+        "candidate_id": "ship-glider-p4-x501-y45-g1550",
+        "description": "glider phase 4 at (501,45); 5 added cells",
+        "generation": 1550,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 8.155241124914028
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            436,
+            54
+          ],
+          [
+            436,
+            55
+          ],
+          [
+            436,
+            56
+          ],
+          [
+            436,
+            57
+          ],
+          [
+            436,
+            58
+          ],
+          [
+            436,
+            59
+          ],
+          [
+            437,
+            53
+          ],
+          [
+            437,
+            59
+          ],
+          [
+            438,
+            59
+          ],
+          [
+            439,
+            53
+          ],
+          [
+            439,
+            58
+          ],
+          [
+            440,
+            55
+          ],
+          [
+            440,
+            56
+          ]
+        ],
+        "candidate_id": "ship-hwss-p2-x436-y53-g1850",
+        "description": "hwss phase 2 at (436,53); 13 added cells",
+        "generation": 1850,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.732282374985516
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            478,
+            139
+          ],
+          [
+            478,
+            140
+          ],
+          [
+            478,
+            141
+          ],
+          [
+            478,
+            142
+          ],
+          [
+            478,
+            143
+          ],
+          [
+            478,
+            144
+          ],
+          [
+            479,
+            138
+          ],
+          [
+            479,
+            144
+          ],
+          [
+            480,
+            144
+          ],
+          [
+            481,
+            138
+          ],
+          [
+            481,
+            143
+          ],
+          [
+            482,
+            140
+          ],
+          [
+            482,
+            141
+          ]
+        ],
+        "candidate_id": "ship-hwss-p2-x478-y138-g1875",
+        "description": "hwss phase 2 at (478,138); 13 added cells",
+        "generation": 1875,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.474233207991347
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            530,
+            12
+          ],
+          [
+            531,
+            10
+          ],
+          [
+            531,
+            14
+          ],
+          [
+            532,
+            9
+          ],
+          [
+            533,
+            9
+          ],
+          [
+            533,
+            14
+          ],
+          [
+            534,
+            9
+          ],
+          [
+            534,
+            10
+          ],
+          [
+            534,
+            11
+          ],
+          [
+            534,
+            12
+          ],
+          [
+            534,
+            13
+          ]
+        ],
+        "candidate_id": "ship-mwss-p7-x530-y9-g1800",
+        "description": "mwss phase 7 at (530,9); 11 added cells",
+        "generation": 1800,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.332329125027172
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            554,
+            58
+          ],
+          [
+            554,
+            60
+          ],
+          [
+            555,
+            61
+          ],
+          [
+            556,
+            57
+          ],
+          [
+            556,
+            61
+          ],
+          [
+            557,
+            57
+          ],
+          [
+            557,
+            61
+          ],
+          [
+            558,
+            61
+          ],
+          [
+            559,
+            58
+          ],
+          [
+            559,
+            61
+          ],
+          [
+            560,
+            59
+          ],
+          [
+            560,
+            60
+          ],
+          [
+            560,
+            61
+          ]
+        ],
+        "candidate_id": "ship-hwss-p4-x554-y57-g1850",
+        "description": "hwss phase 4 at (554,57); 13 added cells",
+        "generation": 1850,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.648850291967392
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            527,
+            85
+          ],
+          [
+            527,
+            87
+          ],
+          [
+            528,
+            84
+          ],
+          [
+            529,
+            84
+          ],
+          [
+            529,
+            88
+          ],
+          [
+            530,
+            84
+          ],
+          [
+            530,
+            88
+          ],
+          [
+            531,
+            84
+          ],
+          [
+            532,
+            84
+          ],
+          [
+            532,
+            87
+          ],
+          [
+            533,
+            84
+          ],
+          [
+            533,
+            85
+          ],
+          [
+            533,
+            86
+          ]
+        ],
+        "candidate_id": "ship-hwss-p3-x527-y84-g1675",
+        "description": "hwss phase 3 at (527,84); 13 added cells",
+        "generation": 1675,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.752727499930188
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            469,
+            47
+          ],
+          [
+            469,
+            48
+          ],
+          [
+            469,
+            49
+          ],
+          [
+            470,
+            46
+          ],
+          [
+            470,
+            49
+          ],
+          [
+            471,
+            49
+          ],
+          [
+            472,
+            45
+          ],
+          [
+            472,
+            49
+          ],
+          [
+            473,
+            49
+          ],
+          [
+            474,
+            46
+          ],
+          [
+            474,
+            48
+          ]
+        ],
+        "candidate_id": "ship-mwss-p5-x469-y45-g1900",
+        "description": "mwss phase 5 at (469,45); 11 added cells",
+        "generation": 1900,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.1103260410018265
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            542,
+            126
+          ],
+          [
+            542,
+            127
+          ],
+          [
+            542,
+            128
+          ],
+          [
+            542,
+            129
+          ],
+          [
+            543,
+            125
+          ],
+          [
+            543,
+            129
+          ],
+          [
+            544,
+            129
+          ],
+          [
+            545,
+            125
+          ],
+          [
+            545,
+            128
+          ]
+        ],
+        "candidate_id": "ship-lwss-p4-x542-y125-g1650",
+        "description": "lwss phase 4 at (542,125); 9 added cells",
+        "generation": 1650,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.552666208008304
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            429,
+            12
+          ],
+          [
+            429,
+            13
+          ],
+          [
+            429,
+            14
+          ],
+          [
+            430,
+            12
+          ],
+          [
+            431,
+            13
+          ]
+        ],
+        "candidate_id": "ship-glider-p0-x429-y12-g1725",
+        "description": "glider phase 0 at (429,12); 5 added cells",
+        "generation": 1725,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.569398083956912
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            406,
+            120
+          ],
+          [
+            406,
+            122
+          ],
+          [
+            407,
+            123
+          ],
+          [
+            408,
+            119
+          ],
+          [
+            408,
+            123
+          ],
+          [
+            409,
+            119
+          ],
+          [
+            409,
+            123
+          ],
+          [
+            410,
+            123
+          ],
+          [
+            411,
+            120
+          ],
+          [
+            411,
+            123
+          ],
+          [
+            412,
+            121
+          ],
+          [
+            412,
+            122
+          ],
+          [
+            412,
+            123
+          ]
+        ],
+        "candidate_id": "ship-hwss-p4-x406-y119-g1550",
+        "description": "hwss phase 4 at (406,119); 13 added cells",
+        "generation": 1550,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.210110584041104
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            507,
+            51
+          ],
+          [
+            507,
+            52
+          ],
+          [
+            507,
+            53
+          ],
+          [
+            508,
+            50
+          ],
+          [
+            508,
+            53
+          ],
+          [
+            509,
+            53
+          ],
+          [
+            510,
+            49
+          ],
+          [
+            510,
+            53
+          ],
+          [
+            511,
+            49
+          ],
+          [
+            511,
+            53
+          ],
+          [
+            512,
+            53
+          ],
+          [
+            513,
+            50
+          ],
+          [
+            513,
+            52
+          ]
+        ],
+        "candidate_id": "ship-hwss-p5-x507-y49-g1600",
+        "description": "hwss phase 5 at (507,49); 13 added cells",
+        "generation": 1600,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.118757165968418
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            420,
+            33
+          ],
+          [
+            420,
+            34
+          ],
+          [
+            420,
+            35
+          ],
+          [
+            420,
+            36
+          ],
+          [
+            421,
+            33
+          ],
+          [
+            421,
+            37
+          ],
+          [
+            422,
+            33
+          ],
+          [
+            423,
+            34
+          ],
+          [
+            423,
+            37
+          ]
+        ],
+        "candidate_id": "ship-lwss-p0-x420-y33-g1600",
+        "description": "lwss phase 0 at (420,33); 9 added cells",
+        "generation": 1600,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 6.01089375000447
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            477,
+            119
+          ],
+          [
+            477,
+            120
+          ],
+          [
+            477,
+            121
+          ],
+          [
+            478,
+            119
+          ],
+          [
+            478,
+            122
+          ],
+          [
+            479,
+            119
+          ],
+          [
+            480,
+            119
+          ],
+          [
+            481,
+            120
+          ],
+          [
+            481,
+            122
+          ]
+        ],
+        "candidate_id": "ship-lwss-p1-x477-y119-g1525",
+        "description": "lwss phase 1 at (477,119); 9 added cells",
+        "generation": 1525,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 7.5798201659927145
+    },
+    {
+      "candidate": {
+        "additions": [
+          [
+            529,
+            32
+          ],
+          [
+            529,
+            34
+          ],
+          [
+            530,
+            31
+          ],
+          [
+            531,
+            31
+          ],
+          [
+            531,
+            35
+          ],
+          [
+            532,
+            31
+          ],
+          [
+            533,
+            31
+          ],
+          [
+            533,
+            34
+          ],
+          [
+            534,
+            31
+          ],
+          [
+            534,
+            32
+          ],
+          [
+            534,
+            33
+          ]
+        ],
+        "candidate_id": "ship-mwss-p3-x529-y31-g1600",
+        "description": "mwss phase 3 at (529,31); 11 added cells",
+        "generation": 1600,
+        "kind": "spaceship"
+      },
+      "context_seed_indices_sha256": "865409c9c249b634b118bac6a23f8bca3ec115859f64bd9e78fe46c421e69c1e",
+      "metrics": {
+        "full": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "legacy": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        },
+        "wide": {
+          "binary_exact_fraction": 0.7777777777777778,
+          "classes": 16,
+          "contexts": 18,
+          "entropy_bits": 3.94770277922009,
+          "largest_class": 2,
+          "mean_forced_bits": 11.555555555555555,
+          "mean_log2_binary_ambiguity": 0.2222222222222222
+        }
+      },
+      "stage": "screen",
+      "worker_seconds": 5.903665499994531
+    }
+  ],
+  "version": 1,
+  "windows": {
+    "full": [
+      0,
+      0,
+      1000,
+      200
+    ],
+    "legacy": [
+      440,
+      0,
+      120,
+      48
+    ],
+    "wide": [
+      320,
+      0,
+      360,
+      120
+    ]
+  }
+}

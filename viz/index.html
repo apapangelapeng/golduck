@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>golduck · level viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/viz.css" />
+  </head>
+  <body>
+    <nav class="app-tabs" aria-label="Visualizer views" role="tablist">
+      <button
+        type="button"
+        id="tab-visualizer"
+        class="app-tab active"
+        role="tab"
+        aria-selected="true"
+        aria-controls="visualizer-view"
+      >
+        Visualizer
+      </button>
+      <button
+        type="button"
+        id="tab-idea-lab"
+        class="app-tab"
+        role="tab"
+        aria-selected="false"
+        aria-controls="idea-lab-view"
+        tabindex="-1"
+      >
+        Idea Lab
+      </button>
+      <button
+        type="button"
+        id="tab-secret"
+        class="app-tab"
+        role="tab"
+        aria-selected="false"
+        aria-controls="secret-view"
+        tabindex="-1"
+      >
+        Secret
+      </button>
+      <button
+        type="button"
+        id="tab-comparison"
+        class="app-tab"
+        role="tab"
+        aria-selected="false"
+        aria-controls="comparison-view"
+        tabindex="-1"
+      >
+        Score comparison
+      </button>
+      <button
+        type="button"
+        id="tab-scoring"
+        class="app-tab"
+        role="tab"
+        aria-selected="false"
+        aria-controls="scoring-view"
+        tabindex="-1"
+      >
+        Scoring
+      </button>
+    </nav>
+
+    <div
+      id="visualizer-view"
+      class="shell"
+      role="tabpanel"
+      aria-labelledby="tab-visualizer"
+    >
+      <aside class="panel" aria-label="Simulation controls">
+        <label>
+          Level
+          <select id="level"></select>
+        </label>
+        <label>
+          Seed (128-bit hex)
+          <input
+            id="seed"
+            type="text"
+            value="00000000000000000000000000000000"
+            spellcheck="false"
+            autocomplete="off"
+          />
+        </label>
+        <div class="row">
+          <button type="button" id="load">Draw</button>
+          <button type="button" id="randomize" class="ghost" title="Generate a random 128-bit seed">Randomize</button>
+        </div>
+        <div class="row">
+          <button type="button" id="fit" class="ghost">Fit content</button>
+          <button type="button" id="fit-canvas" class="ghost">Fit boundary</button>
+        </div>
+        <label>
+          Solution
+          <select id="solution"></select>
+        </label>
+        <label>
+          Playback generations
+          <input id="generations" type="number" min="0" max="10000" step="1" inputmode="numeric" />
+        </label>
+        <div class="row run-nav" id="run-nav" hidden>
+          <button type="button" id="run-prev" class="ghost">&#9664;</button>
+          <span id="run-label"></span>
+          <button type="button" id="run-next" class="ghost">&#9654;</button>
+        </div>
+        <div class="playback">
+          <div class="row">
+            <button type="button" id="sim-reset" class="ghost" title="reset to generation 0">&#8676;</button>
+            <button type="button" id="sim-back" class="ghost" title="step back one generation">&#8722;1</button>
+            <button type="button" id="sim-play" title="play / pause">&#9654;</button>
+            <button type="button" id="sim-fwd" class="ghost" title="step forward one generation">+1</button>
+            <select id="sim-speed" title="generations per second">
+              <option value="2">2 gen/s</option>
+              <option value="10">10 gen/s</option>
+              <option value="30" selected>30 gen/s</option>
+              <option value="120">120 gen/s</option>
+              <option value="100000">max</option>
+            </select>
+          </div>
+          <button
+            type="button"
+            id="sim-export"
+            class="ghost video-export"
+            title="Download playback from generation 0 at 120 generations per second"
+            disabled
+          >
+            Export video · 120 gen/s
+          </button>
+          <p id="sim-export-status" class="video-export-status" aria-live="polite" hidden></p>
+          <div class="scrub">
+            <input type="range" id="sim-slider" min="0" max="1000" value="0" />
+            <span id="sim-gen">gen 0</span>
+          </div>
+        </div>
+        <div class="toggles">
+          <label class="check"><input type="checkbox" id="show-grid" checked /> Grid</label>
+          <label class="check"><input type="checkbox" id="show-canvas" checked /> Canvas boundary</label>
+          <label class="check"><input type="checkbox" id="show-cells" checked /> Secret cells</label>
+        </div>
+        <section id="score-panel" class="score-panel" hidden aria-live="polite">
+          <div class="score-heading">
+            <div>
+              <p class="score-title">Live score</p>
+              <p id="score-seed" class="score-seed"></p>
+            </div>
+            <span id="score-status" class="score-status">waiting</span>
+          </div>
+          <output id="score-total" class="score-total">—</output>
+          <p id="score-total-label" class="score-total-label">submitted level total</p>
+          <div id="score-levels" class="score-levels"></div>
+          <p id="score-note" class="hint"></p>
+        </section>
+        <dl id="meta" class="meta"></dl>
+        <p class="hint">Scroll to zoom · drag to pan within canvas</p>
+      </aside>
+
+      <main class="stage">
+        <canvas id="board" width="1200" height="800"></canvas>
+        <p id="status" class="status" hidden></p>
+      </main>
+    </div>
+
+    <section
+      id="idea-lab-view"
+      class="idea-lab-view shell"
+      role="tabpanel"
+      aria-labelledby="tab-idea-lab"
+      hidden
+    >
+      <aside class="lab-panel" aria-label="Idea Lab controls">
+        <header class="lab-heading">
+          <p class="lab-kicker">Interactive Life workbench</p>
+          <h1>Idea Lab</h1>
+          <p>
+            Build probes in the contestant start area and evolve them against the
+            complete seed-derived secret. All 64 secret bits are treated as known.
+          </p>
+        </header>
+
+        <div class="lab-source-grid">
+          <label>
+            Level
+            <select id="lab-level"></select>
+          </label>
+          <label>
+            Seed
+            <input
+              id="lab-seed"
+              type="text"
+              value="00000000000000000000000000000000"
+              spellcheck="false"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+        <div class="row">
+          <button type="button" id="lab-load">Load level</button>
+          <button type="button" id="lab-randomize" class="ghost">Random seed</button>
+        </div>
+        <div class="row">
+          <button type="button" id="lab-fit-start" class="ghost">Fit start area</button>
+          <button type="button" id="lab-fit-all" class="ghost">Fit all regions</button>
+        </div>
+
+        <section class="lab-section lab-solution-loader" aria-labelledby="lab-solution-title">
+          <div class="lab-section-heading compact">
+            <div>
+              <p class="lab-section-kicker">Saved evaluation</p>
+              <h2 id="lab-solution-title">Load solution run</h2>
+            </div>
+          </div>
+          <div class="lab-solution-grid">
+            <label>
+              Solution
+              <select id="lab-solution"></select>
+            </label>
+            <label>
+              Run for this level
+              <select id="lab-solution-run" disabled>
+                <option value="">Choose a solution</option>
+              </select>
+            </label>
+          </div>
+          <button type="button" id="lab-load-solution" disabled>Load selected run</button>
+          <p id="lab-solution-note" class="lab-solution-note">
+            Choose a saved solution evaluation to import its starting pattern.
+          </p>
+        </section>
+
+        <section class="lab-section" aria-labelledby="lab-stamps-title">
+          <div class="lab-section-heading">
+            <div>
+              <p class="lab-section-kicker">Stamp palette</p>
+              <h2 id="lab-stamps-title">Ships &amp; patterns</h2>
+            </div>
+            <span id="lab-selected-stamp">Glider</span>
+          </div>
+          <div id="lab-palette" class="lab-palette" role="listbox" aria-label="Life stamp"></div>
+          <div class="lab-transform-row" aria-label="Stamp orientation">
+            <button type="button" id="lab-rotate-left" class="ghost" title="Rotate left (Shift+R)">↺</button>
+            <button type="button" id="lab-rotate-right" class="ghost" title="Rotate right (R)">↻</button>
+            <button type="button" id="lab-flip" class="ghost" title="Mirror stamp (F)">Mirror</button>
+            <output id="lab-orientation">0°</output>
+          </div>
+          <div class="lab-bulk-controls">
+            <label class="check lab-bulk-toggle">
+              <input type="checkbox" id="lab-bulk-enabled" /> Bulk fleet
+            </label>
+            <div class="lab-bulk-grid">
+              <label>
+                Columns
+                <input id="lab-bulk-columns" type="number" min="1" max="64" value="8" step="1" inputmode="numeric" disabled />
+              </label>
+              <label>
+                Rows
+                <input id="lab-bulk-rows" type="number" min="1" max="64" value="1" step="1" inputmode="numeric" disabled />
+              </label>
+              <label>
+                X gap
+                <input id="lab-bulk-gap-x" type="number" min="0" max="10000" value="4" step="1" inputmode="numeric" disabled />
+              </label>
+              <label>
+                Y gap
+                <input id="lab-bulk-gap-y" type="number" min="0" max="10000" value="4" step="1" inputmode="numeric" disabled />
+              </label>
+            </div>
+            <output id="lab-bulk-summary" class="lab-bulk-summary" aria-live="polite">
+              Single stamp
+            </output>
+          </div>
+          <div class="lab-tool-row" role="group" aria-label="Canvas tool">
+            <button type="button" id="lab-tool-stamp" class="lab-tool active" aria-pressed="true">Stamp</button>
+            <button
+              type="button"
+              id="lab-tool-pixel"
+              class="lab-tool ghost"
+              aria-pressed="false"
+              aria-keyshortcuts="P"
+              title="Draw or erase one cell at a time (P)"
+            >Pixel</button>
+            <button type="button" id="lab-tool-remove" class="lab-tool ghost" aria-pressed="false">Remove</button>
+            <button type="button" id="lab-tool-pan" class="lab-tool ghost" aria-pressed="false">Pan</button>
+          </div>
+        </section>
+
+        <details class="lab-custom">
+          <summary>Custom RLE stamp</summary>
+          <label>
+            Name
+            <input id="lab-custom-name" type="text" value="Custom spaceship" maxlength="60" />
+          </label>
+          <label>
+            RLE
+            <textarea
+              id="lab-custom-rle"
+              rows="5"
+              spellcheck="false"
+              placeholder="x = 3, y = 3&#10;bob$2bo$3o!"
+            ></textarea>
+          </label>
+          <button type="button" id="lab-use-custom">Use custom stamp</button>
+        </details>
+
+        <section class="lab-section" aria-labelledby="lab-placements-title">
+          <div class="lab-section-heading compact">
+            <div>
+              <p class="lab-section-kicker">Starting pattern</p>
+              <h2 id="lab-placements-title">Pattern pieces</h2>
+            </div>
+            <strong id="lab-cell-count">0 cells</strong>
+          </div>
+          <ol id="lab-placement-list" class="lab-placement-list"></ol>
+          <div class="row">
+            <button type="button" id="lab-undo" class="ghost" disabled>Undo last</button>
+            <button type="button" id="lab-clear" class="ghost" disabled>Clear pattern</button>
+          </div>
+        </section>
+
+        <section class="lab-section" aria-labelledby="lab-simulation-title">
+          <div class="lab-section-heading compact">
+            <div>
+              <p class="lab-section-kicker">Conway's Life</p>
+              <h2 id="lab-simulation-title">Test evolution</h2>
+            </div>
+            <output id="lab-generation">gen 0</output>
+          </div>
+          <label>
+            Target generation
+            <input id="lab-target" type="number" min="0" max="10000" value="1000" step="1" inputmode="numeric" />
+          </label>
+          <div class="lab-sim-settings">
+            <label>
+              Step size
+              <input id="lab-sim-step" type="number" min="1" max="200000" value="1" step="1" inputmode="numeric" />
+            </label>
+            <label>
+              Playback speed
+              <select id="lab-sim-speed">
+                <option value="10">10 gen/s</option>
+                <option value="30" selected>30 gen/s</option>
+                <option value="120">120 gen/s</option>
+                <option value="500">500 gen/s</option>
+                <option value="100000">max</option>
+              </select>
+            </label>
+          </div>
+          <div class="lab-sim-row">
+            <button type="button" id="lab-sim-reset" class="ghost" title="Reset to generation 0">↶</button>
+            <button type="button" id="lab-sim-back" class="ghost" title="Step back one generation">−1</button>
+            <button type="button" id="lab-sim-play" title="Play or pause">▶</button>
+            <button type="button" id="lab-sim-forward" class="ghost" title="Step forward one generation">+1</button>
+          </div>
+          <button type="button" id="lab-run-target" class="ghost">Run to target</button>
+          <div class="lab-score-card" aria-live="polite">
+            <div class="lab-score-heading">
+              <span>Projected exact score</span>
+              <output id="lab-score-total">—</output>
+            </div>
+            <p id="lab-score-status">Run to the target generation to calculate.</p>
+            <dl class="lab-score-breakdown">
+              <div><dt>Base</dt><dd id="lab-score-base">—</dd></div>
+              <div><dt>Run bonus</dt><dd id="lab-score-runs">—</dd></div>
+              <div><dt>Density bonus</dt><dd id="lab-score-density">—</dd></div>
+              <div><dt>Generation bonus</dt><dd id="lab-score-generations">—</dd></div>
+              <div><dt>Exact bonus</dt><dd id="lab-score-exact">—</dd></div>
+            </dl>
+            <p id="lab-score-assumption" class="lab-score-assumption">
+              Assumes one run and a correct answer with all 64 bits known.
+            </p>
+          </div>
+        </section>
+
+        <section class="lab-section lab-display" aria-labelledby="lab-display-title">
+          <h2 id="lab-display-title">Display</h2>
+          <div class="toggles">
+            <label class="check"><input type="checkbox" id="lab-show-grid" checked /> Grid</label>
+            <label class="check"><input type="checkbox" id="lab-show-regions" checked /> Level regions</label>
+            <label class="check"><input type="checkbox" id="lab-show-secret" checked /> Known secret cells</label>
+          </div>
+        </section>
+
+        <section class="lab-section" aria-labelledby="lab-state-title">
+          <h2 id="lab-state-title">Lab state</h2>
+          <div class="row">
+            <button type="button" id="lab-save-json">Save JSON</button>
+            <button type="button" id="lab-load-json" class="ghost">Load JSON</button>
+          </div>
+          <input id="lab-file" type="file" accept="application/json,.json" hidden />
+        </section>
+
+        <p class="hint">
+          Pixel: click or drag to draw; start on a live cell to erase · P selects Pixel · B toggles bulk fleet · wheel zooms · WASD pans (Shift = fast) · Z undoes
+        </p>
+      </aside>
+
+      <main class="lab-stage">
+        <canvas
+          id="idea-board"
+          width="1200"
+          height="800"
+          aria-label="Editable Game of Life idea canvas"
+        ></canvas>
+        <p id="lab-status" class="lab-status" role="status" hidden></p>
+      </main>
+    </section>
+
+    <section
+      id="secret-view"
+      class="secret-view"
+      role="tabpanel"
+      aria-labelledby="tab-secret"
+      hidden
+    >
+      <div class="secret-card">
+        <div class="secret-heading">
+          <div>
+            <p class="secret-kicker">Seed-derived level input</p>
+            <h1>Secret preview</h1>
+            <p class="secret-description">
+              The exact secret pattern generated for one random seed and level.
+            </p>
+          </div>
+          <div class="secret-controls">
+            <label>
+              Level
+              <select id="secret-level"></select>
+            </label>
+            <label class="secret-seed-field">
+              Random seed
+              <input
+                id="secret-seed"
+                type="text"
+                readonly
+                spellcheck="false"
+                aria-label="Random 128-bit seed"
+              />
+            </label>
+            <button type="button" id="secret-random">New random seed</button>
+          </div>
+        </div>
+
+        <div class="secret-facts" aria-live="polite">
+          <p>
+            <span>64-bit secret</span>
+            <code id="secret-value">—</code>
+          </p>
+          <p>
+            <span>Live cells</span>
+            <strong id="secret-cell-count">—</strong>
+          </p>
+          <p>
+            <span>Pattern size</span>
+            <strong id="secret-size">—</strong>
+          </p>
+        </div>
+
+        <div class="secret-canvas-wrap">
+          <canvas
+            id="secret-board"
+            width="1200"
+            height="620"
+            aria-label="Generated secret cell pattern"
+          ></canvas>
+          <p id="secret-status" class="secret-status" role="status" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="comparison-view"
+      class="comparison-view"
+      role="tabpanel"
+      aria-labelledby="tab-comparison"
+      hidden
+    >
+      <div class="comparison-card">
+        <div class="comparison-heading">
+          <div class="comparison-title">
+            <p class="comparison-kicker">Persisted evaluations</p>
+            <h1>Solution scores by seed</h1>
+          </div>
+          <div class="comparison-actions">
+            <label class="comparison-level-control" for="comparison-level">
+              <span>Compare</span>
+              <select id="comparison-level">
+                <option value="total">Levels 3–4 total</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+              </select>
+            </label>
+            <button type="button" id="comparison-generate" class="comparison-generate">
+              Score 10 random seeds
+            </button>
+            <button
+              type="button"
+              id="comparison-fill-empty"
+              class="ghost comparison-fill-empty"
+              disabled
+            >
+              Fill empty cells
+            </button>
+            <div
+              id="comparison-restore-controls"
+              class="comparison-restore-controls"
+              hidden
+            >
+              <select
+                id="comparison-restore-select"
+                aria-label="Removed solution to restore"
+              ></select>
+              <button type="button" id="comparison-restore" class="ghost">
+                Restore selected
+              </button>
+            </div>
+            <button type="button" id="comparison-refresh" class="ghost comparison-refresh">
+              Refresh scores
+            </button>
+          </div>
+        </div>
+        <div id="comparison-batch" class="comparison-batch" hidden aria-live="polite">
+          <div class="comparison-batch-heading">
+            <p id="comparison-batch-status">Preparing batch…</p>
+            <span id="comparison-batch-count">0/0 evals</span>
+          </div>
+          <div
+            id="comparison-batch-progress"
+            class="comparison-batch-progress"
+            role="progressbar"
+            aria-label="Seed scoring progress"
+            aria-valuemin="0"
+            aria-valuemax="0"
+            aria-valuenow="0"
+          >
+            <span></span>
+          </div>
+        </div>
+        <p id="comparison-status" class="comparison-status" aria-live="polite"></p>
+        <div id="comparison-table" class="comparison-table-wrap"></div>
+        <p class="comparison-note">
+          Green marks the highest completed score in each seed column. Scores from an older
+          version of a Wasm file are excluded automatically. Tied highest scores count as a
+          win for each solution. Click a score cell to open that exact solution and seed in
+          the Visualizer; use Levels to expand a total-score breakdown. Select an individual
+          level to compare and generate only that level; unselected Life generations are
+          skipped. Remove a row to exclude that solution from future background batches
+          without deleting its Wasm or saved scores; use the restore picker to add a specific
+          row back. Background batches continue if you leave or refresh this page.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="scoring-view"
+      class="scoring-view"
+      role="tabpanel"
+      aria-labelledby="tab-scoring"
+      hidden
+    >
+      <div class="scoring-card">
+        <header class="scoring-heading">
+          <div>
+            <p class="scoring-kicker">Exact scorer arithmetic</p>
+            <h1>Submission score calculation</h1>
+            <p class="scoring-description">
+              Every submitted active level is scored independently, then the Level 3
+              and Level 4 totals are added. Values below update with the selected
+              solution and seed.
+            </p>
+          </div>
+          <button type="button" id="scoring-open-visualizer" class="ghost">
+            Open Visualizer
+          </button>
+        </header>
+
+        <div class="scoring-context" aria-live="polite">
+          <p><span>Solution</span><strong id="scoring-solution">None selected</strong></p>
+          <p><span>Seed</span><code id="scoring-seed">—</code></p>
+          <p><span>Status</span><strong id="scoring-status">Waiting</strong></p>
+        </div>
+
+        <section class="scoring-guide" aria-labelledby="scoring-guide-title">
+          <h2 id="scoring-guide-title">Formula used for every level</h2>
+          <div class="scoring-guide-grid">
+            <p><code>P = 900,000 + R + D + G</code><span>Performance score</span></p>
+            <p>
+              <code>R = 100,000 ÷ (max(runs, 1) + 1)</code>
+              <span>Run bonus · maximum 50,000; 0 and 1 run both receive it</span>
+            </p>
+            <p><code>D = 25,000 × (1 − d)</code><span>Density bonus</span></p>
+            <p><code>G = 25,000 × (1 − g)</code><span>Generation bonus</span></p>
+            <p><code>K = known-correct gate × known bits ÷ 64</code><span>Known weight</span></p>
+            <p><code>Q = 0.5 × (0.4 × right − 0.6 × wrong) ÷ 64</code><span>Guess weight</span></p>
+          </div>
+          <div class="scoring-formula-guide scoring-run-guide">
+            <h3>Run count and performance score</h3>
+            <p class="scoring-equation-list">
+              <code>r = number of completed runs for this level</code>
+              <code>R = 100,000 ÷ (max(r, 1) + 1)</code>
+              <code>P = 900,000 + R + D + G</code>
+            </p>
+            <p>
+              <code>R</code> is at most 50,000. Zero runs and one run both receive
+              50,000; for <code>r ≥ 1</code>, each additional run lowers the bonus.
+              <code>D</code> and <code>G</code> are defined below.
+            </p>
+          </div>
+          <div class="scoring-formula-guide scoring-density-guide">
+            <h3>How density ratio <code>d</code> is calculated</h3>
+            <p class="scoring-equation-list">
+              <code>clamp[0, 1](x) = min(1, max(0, x))</code>
+              <code>d<sub>i</sub> = clamp[0, 1](ln(n<sub>i</sub> + 1) ÷ ln(A + 1))</code>
+              <code>d = max(d<sub>1</sub>, …, d<sub>runs</sub>)</code>
+              <code>= clamp[0, 1](ln(N<sub>max</sub> + 1) ÷ ln(A + 1))</code>
+              <code>D = 25,000 × (1 − d)</code>
+            </p>
+            <p>
+              <code>n<sub>i</sub></code> is the number of live cells in run
+              <code>i</code>'s contestant input at generation zero, and
+              <code>A</code> is the full contestant rectangle width × height.
+              <code>N<sub>max</sub></code> is the largest such count. With no runs,
+              <code>d = 0</code>. The scorer uses the largest single run—not total
+              or average cells, RLE dimensions, or the population after evolution.
+            </p>
+          </div>
+          <div class="scoring-formula-guide scoring-generation-guide">
+            <h3>How max generation ratio <code>g</code> is calculated</h3>
+            <p class="scoring-equation-list">
+              <code>g<sub>i</sub> = clamp[0, 1](ln(t<sub>i</sub> + 1) ÷ ln(T<sub>cap</sub> + 1))</code>
+              <code>g = max(g<sub>1</sub>, …, g<sub>runs</sub>)</code>
+              <code>= clamp[0, 1](ln(T<sub>max</sub> + 1) ÷ ln(T<sub>cap</sub> + 1))</code>
+              <code>G = 25,000 × (1 − g)</code>
+            </p>
+            <p>
+              <code>t<sub>i</sub></code> is run <code>i</code>'s requested
+              generations, <code>T<sub>max</sub></code> is the largest request,
+              and <code>T<sub>cap</sub></code> is that level's maximum allowed
+              generations. With no runs, <code>g = 0</code>; any run at the cap
+              makes <code>g = 1</code>. Totals and averages are ignored.
+            </p>
+          </div>
+          <div class="scoring-formula-guide scoring-answer-guide">
+            <h3>Submission bits and answer weights</h3>
+            <p class="scoring-equation-list">
+              <code>E = V xor S</code>
+              <code>c<sub>K</sub> = 1 if M<sub>K</sub> ≠ 0 and (E and M<sub>K</sub>) = 0; otherwise 0</code>
+              <code>k = popcount(M<sub>K</sub>)</code>
+              <code>q<sub>right</sub> = popcount((not E) and M<sub>Q</sub>)</code>
+              <code>q<sub>wrong</sub> = popcount(E and M<sub>Q</sub>)</code>
+              <code>K = c<sub>K</sub> × k ÷ 64</code>
+              <code>Q = 0.5 × (0.4 × q<sub>right</sub> − 0.6 × q<sub>wrong</sub>) ÷ 64</code>
+            </p>
+            <p>
+              <code>S</code> is the 64-bit secret, <code>V</code> is the submitted
+              value, <code>E</code> marks wrong bits, <code>M<sub>K</sub></code> is
+              the known mask, and <code>M<sub>Q</sub></code> is the guess mask.
+              The known and guess masks must be disjoint. The known gate is
+              all-or-nothing: one incorrect known bit makes all of <code>K</code>
+              zero. Correct guesses add weight; incorrect guesses subtract it.
+            </p>
+          </div>
+          <div class="scoring-formula-guide scoring-total-guide">
+            <h3>Exact bonus, level score, and submission total</h3>
+            <p class="scoring-equation-list">
+              <code>H = 100,000 if c<sub>K</sub> = 1 and M<sub>K</sub> = 0xffffffffffffffff; otherwise 0</code>
+              <code>L = P × (K + Q) + H</code>
+              <code>active total = L<sub>3</sub> + L<sub>4</sub></code>
+            </p>
+            <p>
+              <code>H</code> requires all 64 bits to be marked known and every one
+              to be correct. Unsubmitted active levels do not contribute to the total.
+            </p>
+          </div>
+          <p class="scoring-final-formula">
+            <code>L = [900,000 + R + D + G] × [K + Q] + H</code>
+            <span>Complete per-level score; the active total includes Levels 3 and 4 only.</span>
+          </p>
+        </section>
+
+        <div id="scoring-calculations" class="scoring-calculations" aria-live="polite">
+          <p class="scoring-empty">Select a solution to see each level calculation.</p>
+        </div>
+
+        <footer class="scoring-total-row">
+          <span>Active total · Levels 3 and 4</span>
+          <output id="scoring-total">0</output>
+        </footer>
+      </div>
+    </section>
+    <script src="/static/tab-state.js"></script>
+    <script src="/static/life-engine.js"></script>
+    <script src="/static/idea-lab.js"></script>
+    <script src="/static/playback-state.js"></script>
+    <script src="/static/viz.js"></script>
+  </body>
+</html>
