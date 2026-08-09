@@ -8,6 +8,7 @@ __pycache__/
 .coverage
 htmlcov/
 *.log
+analysis/**/max*-golly-shards/*.tmp
 
 # Local runtime state.
 score_history.json
